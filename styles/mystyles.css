@@ -1,0 +1,36 @@
+/*New Background Created*/
+.body {
+    background-color: rgb(221, 246, 249);
+}
+
+/*New Styles Overwritten for Index Page */ 
+.italic{
+    font-weight: normal;
+    font-style: italic; 
+    text-align: center; 
+    color: black; 
+  }
+.Center{
+    text-align: center;
+  }
+.centerpicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ /*New Styles Overwritten for About Page */ 
+.bold{
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(0, 0, 29);
+  }
+.italic2{
+    font-style: italic; 
+    color: rgb(4, 4, 139);
+}
+a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}

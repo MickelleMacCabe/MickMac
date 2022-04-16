@@ -1,0 +1,89 @@
+/* Created prior to 5/12/2022 and gives details on basic formatting of whole page */ 
+.unorderlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+ /* Specific Parameters for Tableau Page*/ 
+ /*Top Bar area with external Tableau Link */
+ .Navigation {
+   position: absolute;
+   background-color: rgb(139, 208, 253);
+   font-family: Sans-serif; 
+   font-size: larger;
+   text-align: center; 
+   top: 60px;
+   left: 8px; 
+   right: 8px; 
+   height: 20px; 
+   padding-top: 20px;
+   padding-bottom: 20px; 
+   border-bottom: solid 2px gray;
+   border-right: solid 2px gray;
+   border-left: solid 2px gray;
+   border-top: solid 2px gray;
+ }
+
+ /*Middle Section with Individual Tableau Charts */ 
+.Tableau1{
+  top: 114px; 
+  bottom: 50px;
+  right: 114px; 
+  left: 114px; 
+  padding-right: 5px; 
+  padding-left: 5px;
+  border-bottom: solid 2px gray;
+  border-right: solid 2px gray;
+  border-left: solid 2px gray;
+  border-top: solid 2px gray;
+}
+
+/*Bottom Section with anchor and copyright details*/ 
+.footer{
+  bottom: 5px; 
+  height: 50px; 
+  left: 5px;
+  right: 5px; 
+  font-size: 14px; 
+  font-family: Sans-serif; 
+  text-align: center; 
+  color: #999999;
+  text-align: center;
+}
+
+/* Other two custom styles */
+.centergraph {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.sizinggraphs{
+  margin: auto; 
+  max-width: 700px;
+}
+
+.footercontent {
+  text-decoration: underline; 
+  text-decoration: italic;
+}
